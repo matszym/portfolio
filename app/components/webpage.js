@@ -1,10 +1,12 @@
 import React from 'react';
 
+import HeaderComponent from './Header/HeaderComponent';
+import './reset.css';
 
 class Webpage extends React.Component {
   render() {
     return (
-      <h1>Hello World</h1>
+      <HeaderComponent />
     )
   }
 }
